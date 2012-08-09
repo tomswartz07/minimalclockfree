@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minimal Clock</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    
+    <string name="hours_title">Hours</string>
+    <string name="minutes_title">Minutes</string>
+    <string name="hours_summary">Select the color of the hour digits</string>
+    <string name="minutes_summary">Select the color of the minute digits</string>
+    <string name="message">Thank you fro downloading my application! I really appreciate the support. If you enjoy this app, please consider purchasing the \'donate\' version, to buy me a coffee\!</string>
+    <string name="thanks">Special thank you to Richard Martin for the original idea, and to Giuliano Ribeiro for the update to the widget.</string>
+    <string name="widgetinfo">NEW FEATURE: Tap the widget on your homescreen, and it will open your Clock App.</string>
+</resources>

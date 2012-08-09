@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="146dp"
+    android:minHeight="200dp"
+    android:initialLayout="@layout/tom_clock_v1"
+    android:configure="tom.clock.TomClockV1Configure"
+    android:previewImage="@drawable/preview">
+</appwidget-provider>
+
+

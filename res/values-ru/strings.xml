@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minimal Clock</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    
+    <string name="hours_title">Hours</string>
+    <string name="minutes_title">Minutes</string>
+    <string name="hours_summary">Select the color of the hour digits</string>
+    <string name="minutes_summary">Select the color of the minute digits</string>
+    <string name="twentyfour_hr_button_text">24-часовой режимe</string>
+    <string name="twelve_hr_button_text">12-часовой режим</string>
+    <string name="message">Благодарим Вас за загрузку мое приложение! Я действительно ценю все поддержке. В знак моей благодарности за тех, кто покупает версия Платная этого приложения, они будут получать новые функциональные возможности в первую очередь.</string>
+    <string name="thanks">Отдельное спасибо Richard Martin за оригинальную идею.</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days">
+        <item>empty</item>
+        <item>domencia</item>
+        <item>lunedì</item>
+        <item>martedi</item>
+        <item>mercoledi</item>
+        <item>giovedi</item>
+        <item>venerdi</item>
+        <item>sabato</item>
+    </string-array>
+    
+    <string-array name="months">
+        <item>gennaio</item>
+        <item>febbraio</item>
+        <item>marzo</item>
+        <item>aprile</item>
+        <item>maggio</item>
+        <item>giugno</item>
+        <item>luglio</item>
+        <item>agosto</item>
+        <item>settembre</item>
+        <item>ottobre</item>
+        <item>novembre</item>
+        <item>dicembre</item>
+    </string-array>
+</resources>
