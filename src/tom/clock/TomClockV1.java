@@ -68,11 +68,12 @@ public class TomClockV1 extends AppWidgetProvider {
 			// Verify clock implementation
 			String clockImpls[][] = {
 					{"HTC Alarm Clock", "com.htc.android.worldclock", "com.htc.android.worldclock.WorldClockTabControl" },
+					{"Google Calendar", "com.google.android.calendar","com.android.calendar.AllInOneActivity"},
 					{"DonutAlarm Clock", "com.android.alarmclock", "com.android.alarmclock.AlarmClock"},
 					{"Standard Alarm Clock", "com.android.deskclock", "com.android.deskclock.AlarmClock"},
 					{"Nexus Alarm Clock", "com.google.android.deskclock", "com.android.deskclock.DeskClock"},
 					{"Moto Blur Alarm Clock", "com.motorola.blur.alarmclock",  "com.motorola.blur.alarmclock.AlarmClock"},
-					{"Samsung Galaxy Clock", "com.sec.android.app.clockpackage","com.sec.android.app.clockpackage.ClockPackage"}
+					{"Samsung Galaxy Clock", "com.sec.android.app.clockpackage","com.sec.android.app.clockpackage.ClockPackage"},
 			};
 
 			for(int i=0; i<clockImpls.length; i++) {

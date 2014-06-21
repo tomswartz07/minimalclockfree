@@ -2,7 +2,7 @@
 <resources>
     <string-array name="days">
         <item>empty</item>
-        <item>domencia</item>
+        <item>domenica</item>
         <item>lunedì</item>
         <item>martedi</item>
         <item>mercoledi</item>
