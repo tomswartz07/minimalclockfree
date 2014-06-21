@@ -20,42 +20,42 @@ public class TomClockV1Configure extends Activity {
 	
 	protected int widgetId;
 	
-    @Override
-    public void onCreate(final Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.tom_clock_v1_configure);
-        
-        ((Button) findViewById(R.id.confirm_button_12)).setOnClickListener(confirm12ClickListener);
-        ((Button) findViewById(R.id.confirm_button_24)).setOnClickListener(confirm24ClickListener);
-        
-        Bundle extras = getIntent().getExtras();
-        widgetId = extras.getInt(AppWidgetManager.EXTRA_APPWIDGET_ID);
-    }
-    
-    protected void postResult() {
-    	Intent resultValue = new Intent();
-        resultValue.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, widgetId);
-        setResult(RESULT_OK, resultValue);
-        finish();
-    }
-    
-    protected void set24HourMode(final boolean mode24) {
-    	SharedPreferences.Editor prefs = getSharedPreferences(PREFS_KEY, 0).edit();
-    	prefs.putBoolean(TWENTY_FOUR_HOUR_MODE, mode24);
-    	prefs.commit();
-    }
-    
-    View.OnClickListener confirm12ClickListener = new View.OnClickListener() {
-        public void onClick(View v) {
-        	set24HourMode(false);
-        	postResult();
-        }
-    };
-    
-    View.OnClickListener confirm24ClickListener = new View.OnClickListener() {
-        public void onClick(View v) {
-        	set24HourMode(true);
-        	postResult();
-        }
-    };
+	@Override
+	public void onCreate(final Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.tom_clock_v1_configure);
+
+		((Button) findViewById(R.id.confirm_button_12)).setOnClickListener(confirm12ClickListener);
+		((Button) findViewById(R.id.confirm_button_24)).setOnClickListener(confirm24ClickListener);
+
+		Bundle extras = getIntent().getExtras();
+		widgetId = extras.getInt(AppWidgetManager.EXTRA_APPWIDGET_ID);
+	}
+
+	protected void postResult() {
+		Intent resultValue = new Intent();
+		resultValue.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, widgetId);
+		setResult(RESULT_OK, resultValue);
+		finish();
+	}
+
+	protected void set24HourMode(final boolean mode24) {
+		SharedPreferences.Editor prefs = getSharedPreferences(PREFS_KEY, 0).edit();
+		prefs.putBoolean(TWENTY_FOUR_HOUR_MODE, mode24);
+		prefs.commit();
+	}
+
+	View.OnClickListener confirm12ClickListener = new View.OnClickListener() {
+		public void onClick(View v) {
+			set24HourMode(false);
+			postResult();
+		}
+	};
+
+	View.OnClickListener confirm24ClickListener = new View.OnClickListener() {
+		public void onClick(View v) {
+			set24HourMode(true);
+			postResult();
+		}
+	};
 }

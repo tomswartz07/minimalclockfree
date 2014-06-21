@@ -3,5 +3,7 @@
     android:id="@+id/clock_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:maxHeight="250dp"
     android:padding="@dimen/widget_margin"
     android:scaleType="center" />
+

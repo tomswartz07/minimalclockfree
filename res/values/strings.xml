@@ -8,7 +8,7 @@
     <string name="minutes_title">Minutes</string>
     <string name="hours_summary">Select the color of the hour digits</string>
     <string name="minutes_summary">Select the color of the minute digits</string>
-    <string name="message">Thank you for downloading my application! I really appreciate the support. If you enjoy this app, please consider purchasing the \'donate\' version, to buy me a coffee\!</string>
+    <string name="message">Thank you for downloading my application! I really appreciate the support. If you enjoy this app, please consider \'donating\' to my cause from the Developer Website, to buy me a coffee\!</string>
     <string name="thanks">Special thank you to Richard Martin for the original idea, and to Giuliano Ribeiro for the update to the widget.</string>
-    <string name="widgetinfo">NEW FEATURE: Tap the widget on your homescreen, and it will open your Clock App.</string>
+    <string name="widgetinfo">NEW FEATURE: Add this widget on your lockscreen! Android 4.2 and up only.</string>
 </resources>
