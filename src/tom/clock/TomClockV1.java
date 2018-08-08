@@ -139,7 +139,7 @@ public class TomClockV1 extends AppWidgetProvider {
 		final int height = 300;
 		final int numberWidth = (int) (72 * density);
 		final double numberHeight = (182 / 1.5) * density;
-		final int topPadding = 15;
+		final int topPadding = 2;
 		final int leftPadding = 10;
 		final int numberGap = 2;
 
